@@ -1,6 +1,6 @@
-Full Name, Student_ID
-Aaron Sombrado Chiang Ee Peng, S10247312J
-Clavis Soh Tze Siang, S10242569D
-Joslyn Cheong Yi Xuan, S10247598J
-Megan Mak Rui Qi, S10243295C
-Syaza Batrisyia Binti Mohammad Zulkiflee, S10248250A
+Full Name, Student_ID, GitHub_ID
+Aaron Sombrado Chiang Ee Peng, S10247312J, itsaxron
+Clavis Soh Tze Siang, S10242569D, Clavis-S
+Joslyn Cheong Yi Xuan, S10247598J, anyahehseyo
+Megan Mak Rui Qi, S10243295C, meganmaki
+Syaza Batrisyia Binti Mohammad Zulkiflee, S10248250A, syazamies
