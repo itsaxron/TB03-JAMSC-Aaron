@@ -20,8 +20,8 @@ def coh_function(forex):
       continue
     if rows[i][1] < rows[i-1][1]:
       temp = []
-      temp.append(round(float(rows[i-1][0]),2))
-      temp.append(round(forex*(int(rows[i-1][1]) - int(rows[i][1]))),2)
+      temp.append("{:.2f}".format(float(rows[i][0])))
+      temp.append("{:.2f}".format(forex*(int(rows[i-1][1]) - int(rows[i][1]))))
       
       losses.append(temp)
       
