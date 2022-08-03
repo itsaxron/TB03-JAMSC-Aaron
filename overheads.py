@@ -3,7 +3,7 @@ from pathlib import Path
 
 def getMaxOverhead(forex):
     path = str(Path.cwd())
-    path += '\csv\overheads.csv'
+    path += '\csv_reports\Overheads.csv'
 
     rows = []
     with open(path, 'r') as f:

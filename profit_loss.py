@@ -3,7 +3,7 @@ from pathlib import Path
 
 def getProfitLosses(forex):
     path = str(Path.cwd())
-    path += '\csv\profit_loss.csv'
+    path += '\csv_reports\Profits and Loss.csv'
 
     rows = []
     with open(path, 'r') as f:
