@@ -1,7 +1,7 @@
 import requests
-
+#Create a customised function to find the currency exchange rate
 def api_function():
-    
+
     function = 'CURRENCY_EXCHANGE_RATE'
     from_symbol = 'USD'
     to_symbol = 'SGD'
