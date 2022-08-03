@@ -5,7 +5,7 @@ def coh_function(forex):
   path = str(Path.cwd())
   path += '\csv_reports\Cash on Hand.csv'
   
-  row = []
+  rows = []
   with open(path, 'r') as f:
     csvreader = csv.reader(f)
     next(csvreader)
@@ -25,4 +25,4 @@ def coh_function(forex):
       
       losses.append(temp)
       
-   return losses
+    return losses
