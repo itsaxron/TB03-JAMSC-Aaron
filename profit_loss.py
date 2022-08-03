@@ -1,9 +1,9 @@
 import csv
 from pathlib import Path
 
-def profitloss_function(forex):
+def getProfitLosses(forex):
     path = str(Path.cwd())
-    path += '\csv_reports\Profits and Loss.csv'
+    path += '\csv\profit_loss.csv'
 
     rows = []
     with open(path, 'r') as f:

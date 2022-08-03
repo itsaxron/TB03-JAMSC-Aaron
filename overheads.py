@@ -1,11 +1,9 @@
-
 import csv
 from pathlib import Path
 
-def overhead_function(forex):
-
+def getMaxOverhead(forex):
     path = str(Path.cwd())
-    path += '\csv_reports\Overheads.csv'
+    path += '\csv\overheads.csv'
 
     rows = []
     with open(path, 'r') as f:
@@ -16,11 +14,12 @@ def overhead_function(forex):
             rows.append(row)
 
     max = 0
-    maxHeader = [] #list that returns [max overhead, which overhead]
+    maxDetails = [] #list that retuns [max overhead, which overhead]
 
     for i in range(len(rows)):
         if max < float(rows[i][1]):
             max = float(rows[i][1])
-            maxHeader = [rows[i][0], "{:.2f}".format(max * forex)]
+            maxDetails = [rows[i][0], "{:.2f}".format(max * forex)]
 
-    return maxHeader
+    return maxDetails
+
