@@ -22,5 +22,6 @@ def main():
             for i in range(len(losses)):
                 f.write(f'[PROFIT DEFICIT] DAY: {losses[i][0]}, AMOUNT: {losses[i][1]}\n')
 
+    print("Created summary_report.txt")
 
 main()
