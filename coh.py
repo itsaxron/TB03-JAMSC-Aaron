@@ -3,7 +3,7 @@ from pathlib import Path
 
 def getcohLosses(forex):
     path = str(Path.cwd())
-    path += '\csv_reports\Cash on Hand.csv'
+    path += '\csv_reports\Cash on Hands.csv'
 
     rows = []
     with open(path, 'r') as f:
