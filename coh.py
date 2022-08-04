@@ -70,7 +70,7 @@ def coh_function(forex):
             deficit_amount.append("{:.2f}".format(forex*(int(rows[i-1][1]) - int(rows[i][1]))))
 
         # once the loop calculates and differences and finds the Day number corresponding to the deficit, it will go through the whole nested list till it reaches the max range
-        # the newly furnished list will be assigned into 'deificit_amount'
+        # the newly furnished list will be assigned into 'deficit_amount'
         # once the i variable goes through the whole range, using .append() function, it will add in the new lists from 'deficit_amount' and assign it to 'deficit' variable
             deficit.append(deficit_amount)
 
