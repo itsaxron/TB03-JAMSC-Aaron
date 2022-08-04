@@ -1,7 +1,7 @@
 import csv
 from pathlib import Path
 
-def getMaxOverhead(forex):
+def overhead_function(forex):
     path = str(Path.cwd())
     path += '\csv_reports\Overheads.csv'
 

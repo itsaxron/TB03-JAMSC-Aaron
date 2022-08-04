@@ -1,7 +1,7 @@
 import csv
 from pathlib import Path
 
-def getProfitLosses(forex):
+def profitloss_function(forex):
     path = str(Path.cwd())
     path += '\csv_reports\Profits and Loss.csv'
 
@@ -19,10 +19,10 @@ def getProfitLosses(forex):
         if i == 0:
             continue
         if rows[i][4] < rows[i-1][4]:
-            temp = []
-            temp.append("{:.2f}".format(float(rows[i][0])))
-            temp.append("{:.2f}".format(forex*(int(rows[i-1][4]) - int(rows[i][4]))))
+            losses_amount = []
+            losses_amount.append("{:.2f}".format(float(rows[i][0])))
+            losses_amount.append("{:.2f}".format(forex*(int(rows[i-1][4]) - int(rows[i][4]))))
 
-            losses.append(temp)
+            losses.append(losses_amount)
 
     return losses
