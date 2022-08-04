@@ -9,7 +9,7 @@ def profitloss_function(forex):
 # function Path.cwd() gets the current working directory for user's device
 # str(Path.cwd()) converts the current working directory into a string
 # the stringed current working directory is then assigned to 'path' variable
-# += extends the current working directory by '\csv_reports\Cash on Hand.csv', and it assigns it to as the new directory for 'path' variable
+# += extends the current working directory by '\csv_reports\Profits and Loss.csv', and it assigns it to as the new directory for 'path' variable
     path = str(Path.cwd())
     path += '\csv_reports\Profits and Loss.csv'
 
